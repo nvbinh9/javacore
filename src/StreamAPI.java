@@ -12,6 +12,9 @@ public class StreamAPI {
                  .sorted()
                  .collect(Collectors.toCollection(LinkedHashSet::new));
         list1.forEach(System.out::println);
-        System.out.println("test git, branch develop, branch");
+        System.out.println("-----");
+        System.out.println("nvb");
+        int one  = 5;
+        System.out.println(one);
     }
 }
