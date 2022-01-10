@@ -17,14 +17,17 @@ public class Entry {
         }
 
         System.out.println(array.toString());
-        array.add("D");
-        array.add("E");
+        array.add("G");
+        array.add("M");
 //        array.forEach(i -> System.out.println(i));
         Student student = new Student(3);
         test(student);
         System.out.println("last for test:" + student.getAge());
         test1(student);
         System.out.println("last for test:" + student.getAge());
+        System.out.println("---nvb");
+        student.getAge();
+        student.toString();
 
     }
 
@@ -37,4 +40,5 @@ public class Entry {
         student.setAge(33);
         System.out.println(student.getAge());
     }
+
 }
