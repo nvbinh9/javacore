@@ -19,5 +19,8 @@ public class Hashmap {
 
         student.remove(2);
         student.forEach((key, value) -> System.out.println(key + " : " + value));
+
+        Animal cat = new Cat();
+        System.out.println(cat.Gra());
     }
 }
