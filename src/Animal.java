@@ -5,4 +5,5 @@ public interface Animal {
     static String Gre() {
         return "static method in java 8";
     }
+
 }
