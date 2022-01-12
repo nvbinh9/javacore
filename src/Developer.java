@@ -12,7 +12,7 @@ class JavaDeveloper extends Developer {
 
 class JavascriptDeveloper extends Developer {
     public void read() {
-        System.out.println("javascript Developer");
+        System.out.println("Javascript Developer");
     }
 }
 
