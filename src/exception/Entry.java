@@ -22,9 +22,9 @@ public class Entry {
 //        array.forEach(i -> System.out.println(i));
         Student student = new Student(3);
         test(student);
-        System.out.println("last for test:" + student.getAge());
+        System.out.println("Result:" + student.getAge());
         test1(student);
-        System.out.println("last for test:" + student.getAge());
+        System.out.println("Result:" + student.getAge());
         System.out.println("---nvb");
         student.getAge();
         student.toString();
