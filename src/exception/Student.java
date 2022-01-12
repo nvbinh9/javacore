@@ -8,9 +8,15 @@ public class Student {
         this.age = age;
     }
 
+    public Student() {
+
+    }
+
     public void setAge(int age) {
-        if(age < 0) throw new InputMismatchException("adf");
-        this.age = age;
+        if(age < 0) throw new InputMismatchException("Tuổi không hợp lệ");
+        else {
+            this.age = age;
+        }
     }
 
     public int getAge() {
