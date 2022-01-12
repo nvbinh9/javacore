@@ -1,4 +1,6 @@
-public interface Animal {
+import java.util.stream.BaseStream;
+
+public interface Animal extends BaseStream {
     default String Gra() {
         return "test";
     }

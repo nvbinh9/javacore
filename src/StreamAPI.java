@@ -1,7 +1,8 @@
 import java.util.*;
+import java.util.stream.BaseStream;
 import java.util.stream.Collectors;
 
-public class StreamAPI {
+public class StreamAPI extends Cat implements BaseStream {
     public static void main(String [] args) {
         List<Integer> list = new ArrayList<>(Arrays.asList(3,4,5,6,3,2,8,77,44,5443,234,546,243));
         Set<Integer> list1 = list.stream()
@@ -14,7 +15,8 @@ public class StreamAPI {
         list1.forEach(System.out::println);
         System.out.println("-----");
         System.out.println("nvb");
-        int one  = 5;
-        System.out.println(one);
+        Integer a = 50, b = 50;
+
+        System.out.println(a == b);
     }
 }
