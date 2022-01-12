@@ -15,6 +15,12 @@ public class StreamAPI extends Cat implements BaseStream {
         list1.forEach(System.out::println);
         System.out.println("-----");
         System.out.println("nvb");
+
+        Double c = 10d;
+        Double d = 10d;
+
+        System.out.println(c == d);
+
         Integer a = 50, b = 50;
 
         System.out.println(a == b);
