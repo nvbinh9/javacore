@@ -31,10 +31,9 @@ public class Entry {
         }
         System.out.println("set age" + student1.getAge());
         test(student);
-        System.out.println("Result:" + student.getAge());
+        System.out.println("Result one:" + student.getAge());
         test1(student);
-        System.out.println("Result:" + student.getAge());
-        System.out.println("---nvb");
+        System.out.println("Result two:" + student.getAge());
         student.getAge();
         student.toString();
 
