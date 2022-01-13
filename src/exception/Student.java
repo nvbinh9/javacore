@@ -19,9 +19,7 @@ public class Student extends Object {
 
     }
 
-    public Student() {
 
-    }
 
     public void setAge(int age) {
         if(age < 0) throw new InputMismatchException("Tuổi không hợp lệ");

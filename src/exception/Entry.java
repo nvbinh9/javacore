@@ -20,20 +20,15 @@ public class Entry {
         array.add("G");
         array.add("M");
 //        array.forEach(i -> System.out.println(i));
-<<<<<<< HEAD
-        Student student = new Student(3);
         Student student1 = new Student();
         System.out.println("set age:");
-        System.out.println(student.getAge());
         try {
             student1.setAge(-5);
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
         System.out.println("set age" + student1.getAge());
-=======
         Student student = new Student();
->>>>>>> develop
         test(student);
         System.out.println("Result:" + student.getAge());
         test1(student);
