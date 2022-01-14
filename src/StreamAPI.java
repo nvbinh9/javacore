@@ -16,8 +16,10 @@ public class StreamAPI extends Cat implements BaseStream {
         System.out.println("-----");
         System.out.println("nvb");
 
-        Double c = 10d;
-        Double d = 10d;
+
+
+
+        Integer c = 3000, d = 3000;
 
         System.out.println(c == d);
 
